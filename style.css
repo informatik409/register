@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact{
+    height: 100vh;
+    background-color: black;
+    color: white;
+   
+}
+.contact-main{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px 0;
+}
+.contact-text h1{
+    font-size: 50px;
+
+}
+.first{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.first input{
+    width: 20%;
+    padding: 10px 0;
+    outline: none;
+}
+.icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.two textarea{
+    width: 70%;
+}
+.two input{
+    width: 25%;
+    padding: 20px 0;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.contact-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.adress{
+    width: 21%;
+    
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+.location p{
+    margin-left: 12px;
+}
+.location i{
+    font-size: 25px;
+}
+.link{
+    width: 21%;
+    border-left: 2px solid white;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.newsletter{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+.newsletter input:nth-child(1){
+    width: 100%;
+    padding: 20px;
+    outline: none;
+}
+
+.newsletter input:nth-child(2){
+    width: 80%;
+    padding: 20px;
+    font-size: 15px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    margin-top: 10px;
+    outline: none;
+}
